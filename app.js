@@ -195,4 +195,4 @@ joe.scopeArrow();
 // 2. What is "this" when joe.scopeArrow() is invoked?
 //I cant tell for sure, it looks like it may be something related to the window into the dom or maybe something related to the computer os?
 // 3. Explain why "this" is different when an arrow function is used.
-// This is different becasue it is now using an arrow function which will be causing it to not be under the function definition or parameters??
+// This is different becasue it is now having a different scope that is not local to the constructor like before.
